@@ -1,103 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Underdog&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
-body{
-    font-size: 10px;
-    font-family: 'Underdog', cursive;
-    color: rgb(104, 104, 104);
+body {
+  font-size: 10px;
+  font-family: "Underdog", cursive;
+  color: rgb(104, 104, 104);
 }
-nav h1{
-    padding: 10%;
-    text-transform: uppercase;
-    font-size: 2.5rem;
+nav h1 {
+  padding: 10%;
+  text-transform: uppercase;
+  font-size: 2.5rem;
 }
-nav{
-    margin: 0 auto;
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
+nav {
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
 }
-ul{
-    display: block;
-    list-style-type: none;
-    padding-bottom: 10%;
+ul {
+  display: block;
+  list-style-type: none;
+  padding-bottom: 10%;
 }
-li{
-    display: block;
+li {
+  display: block;
 }
-a{
-    display: inline-block;
-    margin: 3% 0 3%;
-    padding: 5%;
-    width: 60vw;
-    color: rgb(104, 104, 104);
-    border: solid rgb(104, 104, 104) 2px;
-    box-shadow: 2px 2px 3px 3px rgb(104, 104, 104);
-    font-size: 1rem;
-    text-decoration: none;
-    text-transform: uppercase;
+a {
+  display: inline-block;
+  margin: 3% 0 3%;
+  padding: 5%;
+  width: 60vw;
+  color: rgb(104, 104, 104);
+  border: solid rgb(104, 104, 104) 2px;
+  box-shadow: 2px 2px 3px 3px rgb(104, 104, 104);
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-.menu{
-    margin: 0 auto;
-    background-color: white;
-    font-weight: 700;
+.menu {
+  margin: 0 auto;
+  background-color: white;
+  font-weight: 700;
 }
 p.heading {
-    padding: 5%;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
+  padding: 5%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
-ol{
-    display:block;
-    float: left;
-    width: 50vw;
-    margin: 5%;
-    font-size: 1rem;
-    text-align: right;
+ol {
+  display: block;
+  float: left;
+  width: 50vw;
+  margin: 5%;
+  font-size: 1rem;
+  text-align: right;
 }
-.menuimg{
-    width: 35vw;
-    margin-left: 1%;
-    float: left;
+.menuimg {
+  width: 35vw;
+  margin-left: 1%;
+  float: left;
 }
-.menu ol li{
-    padding: 10%;
-    text-transform: uppercase;
-    text-align: right;
-    font-size: 1.5rem;
+.menu ol li {
+  padding: 10%;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 1.5rem;
 }
-.dogphoto img{
-    margin: 0;
-    width: 100%;
-    height: auto;
+.dogphoto img {
+  margin: 0;
+  width: 100%;
+  height: auto;
 }
-.aboutus p.lorem{
-    padding: 0 10% 5%;
-    font-size: 1.2rem;
-    text-align: justify;
-    line-height: 180%;
+.aboutus p.lorem {
+  padding: 0 10% 5%;
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 180%;
 }
-div.contact{
-    padding: 0 10% 5% 15%;
-    font-size: 1.5rem;
-    text-align: justify;
-    line-height: 200%;
+div.contact {
+  padding: 0 10% 5% 15%;
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 200%;
 }
-footer{
-    padding: 5% 10%;
-    font-size: 1.2rem;
-    text-align: center;
-    line-height: 200%;
-    color: white;
-    background-color: rgb(104, 104, 104);
+footer {
+  padding: 5% 10%;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 200%;
+  color: white;
+  background-color: rgb(104, 104, 104);
+}
+@media (orientation:portrait) and (max-height:678px){
+  .bowl{
+    max-height: 30%;
+  }
+}
+@media (orientation:portrait) and (max-height:550px){
+  .bowl{
+    display: none;
+  }
 }
