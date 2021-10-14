@@ -51,6 +51,7 @@ a {
   font-weight: 700;
 }
 p.heading {
+  display: block;
   padding: 5%;
   text-transform: uppercase;
   text-align: center;
